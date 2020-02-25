@@ -2,9 +2,9 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.6;
-    color: #333;
+    color: rgb(216, 182, 71);
 }
 
 *,
@@ -28,4 +28,51 @@ h1, h2, h3, h4, h5, h6 {
 .intro {
     width: 100%;
     height: 100vh;
+
+    background: url("../images/Vault-tech.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color:  #e9ca5b
+}
+
+/* Nav */
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: #e9ca5b;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.nav__link:hover {
+    color: #fff
 }
