@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Button */
 .btn {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
     margin-top: 650px;
     padding: 10px 15px;
 
@@ -107,16 +107,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     font-weight: 700;
     color: #e9ca5b;
+    background-color: rgb(30, 17, 146);
     text-transform: uppercase;
     text-decoration: none;
-    -webkit-transition: background .1s linear, color .1s linear                                                                                                              ;
-    transition: background .1s linear, color .1s linear                                                                                                              ;
-    
+    -webkit-transition: background .1s linear, color .1s linear;
+    transition: background .1s linear, color .1s linear;
+  
 }
 
 .btn:hover {
     background-color: #e9ca5b;
     color: rgb(21, 7, 153)
+}
+
+.btn2 {
+
 }
 
 /* Section */
@@ -172,10 +177,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .section__helptext {
     padding: 20px;
-    font-family: Oswald;
+    font-family: Roboto;
     font-size: 20px;
     color: #fff;
+
 }
+
 
 /* About */
 
