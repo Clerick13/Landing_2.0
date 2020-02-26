@@ -161,13 +161,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
-.sextion__title { 
-    font-family: Roboto;
-    font-size: 30px;
-    font-weight: 700;
-    color: #333;
-    text-transform: uppercase;
-}
+
 
 .section__title:after {
     content: " ";
