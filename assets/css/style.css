@@ -121,7 +121,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn2 {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 10px 15px;
 
+    border: 3px solid #e9ca5b;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: background .1s linear, color .1s linear;
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn2:hover {
+    background-color: #e9ca5b;
+    color: rgb(0, 0, 0)
 }
 
 /* Section */
@@ -183,6 +201,15 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.section_description {
+    padding: 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
 
 /* About */
 
@@ -195,4 +222,10 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 380px;
     max-height: 280px;
 
+}
+
+.inputform__input {
+    border: 1px solid #95989a;
+    padding: 12px 20px;
+    margin-right: 10px;
 }
