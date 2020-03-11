@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Section */
 .section {
-    padding: 40px 0;
+    padding: 20px 0 0 0;
 }
 
 .section__header {
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section__help {
     max-width: 100%;
-    margin: 0 auto 40px;
+    margin: 0;
         
     background-color: #333;
     
